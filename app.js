@@ -36,31 +36,28 @@
 
 // Question # 4
 
-// function calculateAverage(marks) {
-//     let sum = marks.reduce((total, mark) => total + mark, 0);
-//     return sum / marks.length;
+// function calculateAverage(m1,m2,m3){
+//  return  (m1 + m2 + m3) / 3
 // }
 
-// function calculatePercentage(marks, totalMarksPerSubject) {
-//     let sum = marks.reduce((total, mark) => total + mark, 0);
-//     return (sum / (totalMarksPerSubject * marks.length)) * 100;
+// function calculatePercentage(m1,m2,m3,totalMarks){
+//     var obtainedMarks =  m1 + m2 + m3;
+//     var marks =  totalMarks * 3
+//     return    (obtainedMarks / marks)* 100
 // }
 
-// function mainFunction() {
-//     let marks = [];
-//     for (let i = 0; i < 3; i++) {
-//         let mark = parseFloat(prompt(`Subject ${i + 1} ke marks enter karein:`));
-//         marks.push(mark);
-//     }
+// function mainFunction(){
+//     var m1 = 85, m2 = 90, m3 = 70;
+//     var totalMarks = 100;
 
-//     let average = calculateAverage(marks);
-//     let percentage = calculatePercentage(marks, 100); 
+//   var avg = Math.floor(calculateAverage(m1,m2,m3));
+//   var per = Math.floor(calculatePercentage(m1,m2,m3,totalMarks));
 
-//     console.log(`Average Marks: ${average}`);
-//     console.log(`Percentage: ${percentage.toFixed(2)}%`);
+//   console.log(`Average = ${avg}`);
+//   console.log(`percentage = ${per}%`)
 // }
 
-// mainFunction();
+// mainFunction()
 
 
 // Question # 5
